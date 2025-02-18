@@ -14,7 +14,7 @@ import java.nio.file.Paths;
 
 @RestController
 @RequestMapping("/api/email")
-@CrossOrigin(origins = "https://vrdizi.netlify.app/") // Allow frontend requests
+@CrossOrigin(origins = "https://localhost:4200") // Allow frontend requests
 public class EmailController {
 
     private final EmailService emailService;
